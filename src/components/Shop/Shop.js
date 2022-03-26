@@ -5,22 +5,27 @@ import Product from '../Product/Product';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+    // Adding Selected Items in a array
     const addToCart = (product) => {
-
         const newCart = [...cart, product];
         setCart(newCart);
     }
+    // For random item suggestion
     const chooseForMe = (cart) => {
         const choosen = cart.map(obj => ({ ...obj }));
         var randomItem = choosen[Math.floor(Math.random() * choosen.length)];
-        console.log(randomItem);
+        alert(randomItem.name + " will be best for you.");
     }
+    // Clear Previous Selected Items
+    const chooseAgain = () => {
+        setCart([]);
+    }
+
     return (
         <div className='row'>
             <div className='col-8'>
@@ -45,7 +50,7 @@ const Shop = () => {
 
                 <div>
                     <button onClick={() => chooseForMe(cart)} className='btn border d-block'>CHOOSE 1 FOR ME</button>
-                    <button className='btn border d-block'>CHOOSE AGAIN</button>
+                    <button onClick={() => chooseAgain(cart)} className='btn border d-block'>CHOOSE AGAIN</button>
                 </div>
             </div>
         </div>
