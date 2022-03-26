@@ -3,6 +3,7 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 
 const Shop = () => {
+    // Declaring States
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
     useEffect(() => {
@@ -49,6 +50,7 @@ const Shop = () => {
                 }
 
                 <div>
+                    {/* Selected Sections Button */}
                     <button onClick={() => chooseForMe(cart)} className='btn border d-block mb-2 bg-light'>CHOOSE 1 FOR ME</button>
                     <button onClick={() => chooseAgain(cart)} className='btn border d-block bg-light'>CHOOSE AGAIN</button>
                 </div>

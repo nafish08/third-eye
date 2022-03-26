@@ -2,6 +2,7 @@ import React from 'react';
 
 const Bonus = () => {
     return (
+        // Bonus Question Answer
         <div className='mt-5 bg-light p-3 rounded'>
             <h1 className='text-center'>Questions and Answers</h1>
             <h3>How React Work?</h3>
