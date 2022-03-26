@@ -5,7 +5,10 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h4>{name}</h4>
+            <div className='d-flex mb-5'>
+                <img src={img} className='me-3' width='25' alt="" />
+                <h4>{name}</h4>
+            </div>
         </div>
     );
 };
