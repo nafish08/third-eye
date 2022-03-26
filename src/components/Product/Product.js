@@ -7,14 +7,14 @@ const Product = (props) => {
     const { addToCart } = props;
     return (
         <div>
-            <div className="card mb-3">
+            <div className="card mb-3 pb-3">
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Price: {price}BDT</p>
                 </div>
                 <div className="">
-                    <button onClick={() => addToCart(props.product)} className='btn bg-warning w-100 fw-bold'>Add to Cart<FontAwesomeIcon icon={faShoppingCart} /></button>
+                    <button onClick={() => addToCart(props.product)} className='btn bg-danger text-light fw-bold'>Add to Cart&nbsp;<FontAwesomeIcon icon={faShoppingCart} /></button>
                 </div>
             </div>
         </div>

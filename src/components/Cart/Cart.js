@@ -4,7 +4,7 @@ const Cart = (props) => {
     const { name, img } = props.item;
 
     return (
-        <div>
+        <div className='position-sticky top-0'>
             <div className='d-flex mb-5'>
                 <img src={img} className='me-3' width='25' alt="" />
                 <h4>{name}</h4>

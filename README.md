@@ -1,4 +1,4 @@
 # Third Eye
 
-Live link: [https://app.netlify.com/sites/tubular-dodol-6fd4fb/overview](https://app.netlify.com/sites/tubular-dodol-6fd4fb/overview).
+Live link: [https://tubular-dodol-6fd4fb.netlify.app/](https://tubular-dodol-6fd4fb.netlify.app/).
 
