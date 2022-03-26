@@ -3,54 +3,54 @@
     "id": "1",
     "name": "Popeyes Chicken Sandwich",
     "price": 150,
-    "img": "https://i.imgur.com/g2nFila.jpg"
+    "img": "images/1.jpg"
   },
   {
     "id": "2",
     "name": "Wendy's Dave's Single",
     "price": 180,
-    "img": "https://i.imgur.com/ZDJDwZH.jpg"
+    "img": "images/2.jpg"
   },
   {
     "id": "3",
     "name": "Five Guys Cheeseburger",
     "price": 250,
-    "img": "https://i.imgur.com/H6jYARZ.jpg"
+    "img": "images/3.jpg"
   },
   {
     "id": "4",
     "name": "Chick-fil-A Waffle Fries",
     "price": 350,
-    "img": "https://i.imgur.com/t1W1Tmn.jpg"
+    "img": "images/4.jpg"
   },
   {
     "id": "5",
     "name": "Arby's Classic Roast Beef Sandwich",
     "price": 450,
-    "img": "https://i.imgur.com/p7EJXun.jpg"
+    "img": "images/5.jpg"
   },
   {
     "id": "6",
     "name": "Smashburger Classic Smash",
     "price": 230,
-    "img": "https://i.imgur.com/XS2aN4C.jpg"
+    "img": "images/6.jpg"
   },
   {
     "id": "7",
     "name": "Firehouse Subs Hook & Ladder Sandwich",
     "price": 399,
-    "img": "https://i.imgur.com/5ie9a7y.jpg"
+    "img": "images/7.jpg"
   },
   {
     "id": "8",
     "name": "Papa John's Pepperoni Pizza",
     "price": 499,
-    "img": "https://i.imgur.com/bmJ7UzC.jpg"
+    "img": "images/8.jpg"
   },
   {
     "id": "9",
     "name": "Taco Bell Crunchy Taco",
     "price": 599,
-    "img": "https://i.imgur.com/nNauJN8.jpg"
+    "img": "images/9.jpg"
   }
 ]

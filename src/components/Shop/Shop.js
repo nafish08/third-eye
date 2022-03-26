@@ -27,7 +27,7 @@ const Shop = () => {
     }
 
     return (
-        <div className='row'>
+        <div className='row position-relative'>
             <div className='col-8'>
                 <div className='row row-cols-3'>
                     {
@@ -39,8 +39,8 @@ const Shop = () => {
                     }
                 </div>
             </div>
-            <div className='col-4'>
-                <h1>Selected Items:</h1>
+            <div className='col-4 bg-info p-3 position-sticky top-0'>
+                <h1 className='text-start'>Selected Items:</h1>
                 {
                     cart.map(item => <Cart
                         key={item.id}
@@ -49,8 +49,8 @@ const Shop = () => {
                 }
 
                 <div>
-                    <button onClick={() => chooseForMe(cart)} className='btn border d-block'>CHOOSE 1 FOR ME</button>
-                    <button onClick={() => chooseAgain(cart)} className='btn border d-block'>CHOOSE AGAIN</button>
+                    <button onClick={() => chooseForMe(cart)} className='btn border d-block mb-2 bg-light'>CHOOSE 1 FOR ME</button>
+                    <button onClick={() => chooseAgain(cart)} className='btn border d-block bg-light'>CHOOSE AGAIN</button>
                 </div>
             </div>
         </div>
