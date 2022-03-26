@@ -13,9 +13,9 @@ const Shop = () => {
                 <div className='col'>
                     <div className='card h-100'>
                         {
-                            products.map(product => console.log(product))
+                            products.map(product => <img src={product.img} alt='' />)
                         }
-
+                        <h1>Hello</h1>
                     </div>
                 </div>
             </div>
